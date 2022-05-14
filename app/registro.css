@@ -1,0 +1,174 @@
+*{
+  font-family:'Verdana', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("Proyecto_images/estadio.jpg");
+  background-size: cover;
+
+  
+}
+.cabecera{
+  background: rgba(177, 177, 177, 0.726);
+  color: white;
+  margin-top: 0px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.cabecera ul{
+
+display: inline-block;
+}
+.cabecera ul li{
+display: inline-block;
+}
+
+.login-box { 
+  margin-top: 20%;
+  margin-bottom: 10px;
+  height: 920px;
+  width: 500px;
+  background: #8383838f;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  display: inline;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+
+.login-box h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  text-shadow: 2px 2px 2px #000000;
+}
+.login-box h4{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 15px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+
+  border: none;
+  border-bottom: 4px solid #fff;
+  background: transparent;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+}   
+
+.btn-flotante {
+  text-decoration: none;
+  font-size: 16px; 
+  text-transform: uppercase; 
+  font-weight: bold; /* cambiar el diseño de la fuente */
+  color: #ffffff; 
+  border-radius: 10px; /* darle forma de boton o de cuadrado (cuantos mas px mas redondo 150px maximo)*/
+  letter-spacing:2px; /* Espacio entre letras */
+  background-color: #E91E63; /* Color de fondo */
+  padding: 18px 30px; /* Relleno del boton */
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  transition: all 300ms ease 0ms;/*rapidez desde que pasas por encima hasta que sucede la accion*/
+
+ 
+}
+.btn-flotante:hover {
+background-color: #169162;   
+transform: translateY(-7px);/* Darle efecto de movimiento*/
+}
+@media only screen and (max-width: 600px) {
+  .btn-flotante {
+  font-size: 14px;
+  padding: 12px 20px;
+  bottom: 20px;
+  right: 20px;
+  }
+}
+.menu{
+  background: #B3471E;
+  text-align: center;
+  font-size: 22px;    
+}
+
+.menu ul{
+  display: inline-block;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+  padding: 70px ; 
+}
+.menu ul li a:hover{
+  background: rgb(179,71,30);
+  transition: all 0.5s linear;
+  padding: 0.5rem 1rem;
+  border-style: ridge;
+}
+
+table{
+  margin-top: 1%;
+
+}
+table td{
+  font-size: 120%;
+  color:rgb(184, 184, 184);
+  text-transform: uppercase;
+}
+::placeholder{
+  color:white;
+}

@@ -1,0 +1,123 @@
+*{
+  font-family:'Verdana', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+  background-image: url("Proyecto_images/estadio.jpg");
+  background-size: cover;
+}
+.cabecera{
+  background: rgba(177, 177, 177, 0.726);
+  color: white;
+  margin-top: 0px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.cabecera ul{
+  display: inline-block;
+}
+.cabecera ul li{
+  display: inline-block;
+  }
+
+.login-box { 
+  margin-top: 10%;
+  margin-bottom: 10px;
+  height: 420px;
+  width: 500px;
+  background: #8383838f;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  display: inline;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+
+  border: none;
+  border-bottom: 4px solid #fff;
+  background: transparent;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+}   
+
+.menu{
+  background: #B3471E;
+  text-align: center;
+  font-size: 22px;    
+}
+
+.menu ul{
+  display: inline-block;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+  padding: 70px ; 
+}
+.menu ul li a:hover{
+  background: rgb(179,71,30);
+  transition: all 0.5s linear;
+  padding: 0.5rem 1rem;
+  border-style: ridge;
+}
+
+::placeholder{
+  color:white;
+}

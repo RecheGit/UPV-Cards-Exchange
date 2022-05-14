@@ -1,0 +1,60 @@
+*{
+    font-family:'Verdana', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url("Proyecto_images/estadio.jpg");
+    background-size: cover;
+}
+.cabecera{
+    background: rgba(177, 177, 177, 0.726);
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+}
+.cabecera text{
+    text-align: right;
+}
+
+img:hover{
+    filter:saturate(200%);
+}
+.cabecera ul{
+    
+    display: inline-block;
+}
+.cabecera ul li{
+    display: inline-block;    
+}
+.menu{
+    background: #B3471E;
+    text-align: center;
+    font-size: 22px;    
+}
+
+.menu ul{
+    display: inline-block;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    padding: 70px ; 
+}
+.menu ul li a:hover{
+    background: rgb(179,71,30);
+    transition: all 0.5s linear;
+    padding: 0.5rem 1rem;
+    border-style: ridge;
+}
+.medio{ 
+    color: white;
+    margin-top: 16%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    text-align: center;
+    transform: rotate(-19deg);
+    text-shadow: 2px 2px 2px #000000;
+}
